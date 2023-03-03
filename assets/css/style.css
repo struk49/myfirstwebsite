@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(241, 141, 10);
+}
+h1{
+    color: rgb(39, 36, 36);
+    font-family: sans-serif;
+}
+
+p{
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 300;
+}
