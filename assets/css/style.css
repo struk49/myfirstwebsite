@@ -1,43 +1,70 @@
 body{
-    background: #555555;
-    color: white;
-    font-size: 23px;
+    background-color:  #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #777;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container
+{
+   width: 80%;
+   margin: 0 auto; 
+}
+
+section
+{
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
     
 }
-h1{
-    font-size: 70px;
-    color: #fafafa;
-    margin-left: 50px;
+
+section h1{
+    color: #fff;
+    font-size: 40px;
 }
 
-/*---this is the css box modal*/
-/*---margin-----*/
-
-/*-----border----*/
-
-/*-----padding-----*/
-.box{
-    background-image: url(/assets/css/images/salmon-1238248_1920.jpg);
-    background-size: contain;
-    width: 200px;
-    margin: 40px;
-    border-width: 5px;
-    border-color: rgb(243, 146, 9);
-    border-style: solid;
-    padding: 20px;
+section p{
+    font-size: 30px;
 }
 
-.box-two{
-    background-image: url(/assets/css/images/pineapple-636562_1920.jpg);
-    background-size: auto;
-    width: 200px;
-    margin: 40px;
-    border-width: 5px;
-    border-color: rgb(243, 146, 9);
-    border-style: solid;
-    padding: 150px; 
+aside{
+    float: right;
+    width: 25%;
+    margin: 15px 0 0 30px;
+}
+
+aside h1
+{
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+aside li{
+    font-size: 30px;
     color: black;
-    font-size: 25px;
     font-weight: bold;
+}
+
+footer
+{
+    background-color: black;
+    color: #fff;
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+
+
 
 }
